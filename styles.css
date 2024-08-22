@@ -1,0 +1,121 @@
+body {
+    background-color: #0b1418;
+    margin: 0%;
+}
+
+.top {
+    font-family: sans-serif;
+    background-color: black;
+    color: rgb(213 210 208);
+    padding: 8px 16px;
+    font-size: 12px;
+     
+}
+
+.text-center {
+    text-align: center;
+    color: rgb(213 210 208);
+    
+}
+
+.head-buttons-left {
+    color: white;
+    display: flex;
+    gap: 0 5px;
+    font-size: 13px;
+    
+}
+
+.head-buttons-right {
+    color: white;
+    display: flex;
+    gap: 0 5px;
+    font-size: 13px;
+    justify-content: right;
+    
+}
+
+.container-top {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.H{
+    padding: 5px 15px;
+}
+
+.H:hover {
+    background-color: #1b252b;
+    border-width: 5px;
+    border-color: rgb(213 210 208) ;
+    border-radius: 5px;
+    color: rgb(213 210 208);
+    cursor: pointer;
+
+}
+
+.container-mid {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+    padding-bottom: 35px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 10;
+    
+    letter-spacing: -3px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    padding: 15px 25px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #ec4e02;
+    color: white;
+    font-size: 20px;
+
+}
+
+.demo {
+    padding: 15px 25px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #b9bbbc;
+    color: black;
+    font-size: 20px;
+
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url("https://cdn.replit.com/dotcom/fonts/ABCDiatype-RegularPixelBeta.woff2");
+  }
+  
